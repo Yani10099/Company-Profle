@@ -18,15 +18,15 @@ const HeroSection = () => {
       bgImage="/pixelcut-export%20copy.jpeg"
       bgSize="cover"
       bgPosition="center"
-      height="100vh"
+      height="80vh"
       display="flex"
       alignItems="center"
       justifyContent="center"
     >
       <Container maxW="7xl" py={10}>
         <Flex direction="column" justifyContent="center" gap={2}>
-          <Text fontSize="4xl" color="white">
-            Dynamic Tech Magic with CAHAYA Ltd.
+          <Text display="inline-block" bg="green.400" width="fit-content" fontSize="4xl" color="white">
+            Dynamic Tech Magic with CAHAYA LEAD Ltd.
           </Text>
           <TextEffect />
         </Flex>
@@ -37,7 +37,7 @@ const HeroSection = () => {
 
 const CompanyOverview = () => {
   return (
-    <Box py={20}>
+    <Box py={20} bg="black.200">
       <Container maxW="7xl">
         <Text fontSize="2xl" color="yellow.600">
           CAHAYA Ltd. is a leading technology company that specializes in
@@ -52,7 +52,7 @@ const CompanyOverview = () => {
 
 const ProductsOrServices = () => {
   return (
-    <Box py={20}>
+    <Box py={20} bg="black.200">
       <Container maxW="7xl">
         <Grid templateColumns="repeat(3, 1fr)" gap={6}>
           <Box>
@@ -63,7 +63,7 @@ const ProductsOrServices = () => {
               Tailored solutions built from scratch to meet specific business
               needs or requirements.
             </Text>
-            <Link href="/product1" color="green.500">
+            <Link href="/service1" color="green.500">
               Learn More
             </Link>
           </Box>
@@ -72,12 +72,12 @@ const ProductsOrServices = () => {
               Consulting and Strategy
             </Text>
 
-            <Text fontSize="md" color="white">
+            <Text fontSize="md" color="black">
               Offering expert advice, feasibility studies, and strategic
               planning to optimize software projects and IT infrastructure.
             </Text>
 
-            <Link href="/product2" color="green.500">
+            <Link href="/service2" color="green.500">
               Learn More
             </Link>
           </Box>
@@ -87,13 +87,13 @@ const ProductsOrServices = () => {
               Secure System
             </Text>
 
-            <Text fontSize="md" color="white">
+            <Text fontSize="md" color="black">
               Implementing robust defenses such as firewalls, encryption, and
               access controls to safeguard against unauthorized access and cyber
               threats.
             </Text>
 
-            <Link href="/product3" color="green.500">
+            <Link href="/service3" color="green.500">
               Learn More
             </Link>
           </Box>
@@ -105,15 +105,15 @@ const ProductsOrServices = () => {
 
 const Testimonials = () => {
   return (
-    <Box py={20}>
+    <Box py={20} bg="black.100">
       <Container maxW="7xl">
-        <Text fontSize="2xl" color="white">
+        <Text fontSize="2xl" color="yellow.200" mb="15px">
           Don't just take our word for it. Here's what our customers say:
         </Text>
-        <Grid templateColumns="repeat(2, 1fr)" gap={6}>
+        <Grid templateColumns="1fr 1fr" gap={6}>
           <Box>
-            <Text fontSize="md" color="green.500">
-              "CAHAYA Ltd. has been instrumental in helping us grow our
+            <Text fontSize="md" color="green.500" >
+              "CAHAYA LEAD Ltd. has been instrumental in helping us grow our
               business. Their innovative solutions have increased our revenue by
               20%."
             </Text>

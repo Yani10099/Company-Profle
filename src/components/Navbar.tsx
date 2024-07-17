@@ -20,7 +20,7 @@ const Navbar = () => {
     >
       <Container maxW="7xl">
         <Flex justifyContent="space-between">
-          <Text>CAHAYA LEAD</Text>
+          <Text display="inline-block" width="fit-content" fontSize="2xl"  color="green" bg="white">CAHAYA LEAD</Text>
           <Flex gap={6}>
             <Link href="/">
               Home

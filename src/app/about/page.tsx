@@ -11,7 +11,7 @@ import {
 
 const AboutPage = () => {
   return (
-    <Box py={20}>
+    <Box py={20} bg="black.100">
       <Container maxW="7xl">
         <Text fontSize="4xl" color="yellow.600">
           About Us

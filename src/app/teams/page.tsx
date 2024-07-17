@@ -7,7 +7,7 @@ const TeamPage = async () => {
   console.log(teams);
   
   return (
-    <Container maxW="7xl" display="flex" flexDirection="column" alignItems="center" gap={10} py={10}>
+    <Container maxW="7xl" display="flex" flexDirection="column" alignItems="center" gap={10} py={10} bg="black.100">
       <Heading>TEAM</Heading>
       <Grid templateColumns={{base:"1fr",md:"1fr 1fr 1fr"}} gap={4}>
         {teams?.map((team: any, index: number)=>{

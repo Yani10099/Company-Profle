@@ -56,7 +56,7 @@ const services = [
 
 const ServicePage = () => {
   return (
-    <Box py={20}>
+    <Box py={20} bg="black.100">
       <Container maxW="7xl">
         <Text fontSize="4xl" color="green.600">
           Our Services
